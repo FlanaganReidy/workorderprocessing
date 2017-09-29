@@ -54,7 +54,7 @@ public class Processor {
                 workOrderMap.get(Status.INITIAL).add(order);
 
 
-                //f.delete();
+                f.delete();
 
                 System.out.println(workOrderMap.toString());
             }
